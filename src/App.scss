@@ -1,0 +1,21 @@
+.app-wrapper {
+  position: relative;
+  width: 250px;
+  min-height: 306px;
+  padding: 16px;
+  background-color: #fff;
+  border-radius: 6px;
+  font-size: 14px;
+  overflow: hidden;
+
+  .fade-enter-active,
+  .fade-leave-active {
+    transition: 0.3s ease;
+  }
+
+  .fade-enter-from,
+  .fade-leave-to {
+    opacity: 0;
+    transform: translateY(-15px);
+  }
+}
